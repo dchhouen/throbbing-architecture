@@ -1,10 +1,15 @@
 import "./styles.css";
-
+import Info from "./components/Info";
+import About from "./components/About";
+import Interests from "./components/Interests";
+import Footer from "./components/Footer";
 export default function App() {
   return (
-    <div className="App">
-      <h1>make my changes here</h1>
-      <h2>Start editing to see some magic happen!</h2>
+    <div className="app--container">
+      <Info />
+      <About />
+      <Interests />
+      <Footer />
     </div>
   );
 }
